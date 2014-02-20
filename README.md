@@ -1,31 +1,33 @@
-Ufocoin integration/staging tree
+Taxicoin integration/staging tree
 ================================
 
-http://www.ufocoin.info
+http://www.taxicoin.info
 
 Copyright (c) 2009-2013 Bitcoin Developers
+Copyright (c) 2009-2013 Litecoin Developers
 Copyright (c) 2011-2013 Taxicoin Developers
-Copyright (c) 2013-2014 Ufocoin Developers
 
-What is Ufocoin?
+What is Taxicoin?
 ----------------
 
 Ufocoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
- - 2.5 minute block targets
- - subsidy halves in 840k blocks (~4 years)
- - ~84 million total coins
+ - 90 seconds block targets
+ - subsidy reduces every 2 months, for a 8 month period
+ - then subsidy reduces by 25% in 350K blocks (~1 year)
+ - ~56 million total coins
 
 The rest is the same as Bitcoin.
- - 50 coins per block
- - 2016 blocks to retarget difficulty
+ - Starts @ 250 coins per block, followed by 125, 65, finally 35 (During the initial 233,760 blocks - 8 months)
+ - For the remainder of the coin, reward starts at 20
+ - 240 blocks to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
-the Ufocoin client sofware, see http://www.ufocoin.info.
+the Ufocoin client sofware, see http://www.taxicoin.info.
 
 License
 -------
 
-Ufocoin is released under the terms of the MIT license. See `COPYING` for more
+Taxicoin is released under the terms of the MIT license. See `COPYING` for more
 information or see http://opensource.org/licenses/MIT.
 
 Development process
