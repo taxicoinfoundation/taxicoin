@@ -13,9 +13,9 @@ src/test_taxicoin
 
 # Compilation and Qt preprocessor part
 *.qm
-Makefile
+#Makefile
 taxicoin-qt
-Litecoin-Qt.app
+Titecoin-Qt.app
 
 # Unit-tests
 Makefile.test
