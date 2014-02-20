@@ -1,0 +1,34 @@
+src/*.exe
+src/taxicoin
+src/taxicoind
+src/test_taxicoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.taxicoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+taxicoin-qt
+Litecoin-Qt.app
+
+# Unit-tests
+Makefile.test
+taxicoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb-*/Makefile
