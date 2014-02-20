@@ -15,16 +15,16 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>Litecoin-Qt</string>
+	<string>Taxicoin-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.taxicoin.Litecoin-Qt</string>
+	<string>org.taxicoin.Taxicoin-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>org.taxicoin.LitecoinPayment</string>
+            <string>org.taxicoin.TaxicoinPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
               <string>taxicoin</string>

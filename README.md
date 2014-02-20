@@ -4,7 +4,7 @@ Ufocoin integration/staging tree
 http://www.ufocoin.info
 
 Copyright (c) 2009-2013 Bitcoin Developers
-Copyright (c) 2011-2013 Litecoin Developers
+Copyright (c) 2011-2013 Taxicoin Developers
 Copyright (c) 2013-2014 Ufocoin Developers
 
 What is Ufocoin?

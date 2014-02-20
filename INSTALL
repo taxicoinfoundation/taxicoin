@@ -1,9 +1,9 @@
-Building Litecoin
+Building Taxicoin
 
-See doc/readme-qt.rst for instructions on building Litecoin-Qt,
+See doc/readme-qt.rst for instructions on building Taxicoin-Qt,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of Litecoin.
+implementation of Taxicoin.
 
 See doc/build-*.txt for instructions on building taxicoind,
 the intended-for-services, no-graphical-interface, reference
-implementation of Litecoin.
+implementation of Taxicoin.

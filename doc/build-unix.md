@@ -14,7 +14,7 @@ To Build
 	cd src/
 	make -f makefile.unix		# Headless taxicoin
 
-See readme-qt.rst for instructions on building Litecoin-Qt, the graphical user interface.
+See readme-qt.rst for instructions on building Taxicoin-Qt, the graphical user interface.
 
 Dependencies
 ---------------------
