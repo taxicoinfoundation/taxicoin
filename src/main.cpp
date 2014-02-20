@@ -2846,12 +2846,12 @@ bool InitBlockIndex() {
         block.nVersion = 1;
         block.nTime    = 1392846434;
         block.nBits    = 0x1e0ffff0;
-        block.nNonce   = 12314332;
+        block.nNonce   = 1231321;
 
         if (fTestNet)
         {
             block.nTime    = 1392846434;
-            block.nNonce   = 1524906470;
+            block.nNonce   = 1231313123;
         }
 
         //// debug print
@@ -2859,7 +2859,7 @@ bool InitBlockIndex() {
         printf("%s\n", hash.ToString().c_str());
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0x0b98dc03fc30628b2fc56c61b3495e9657bdf3a67dc7dc0f428ab8b0983f0f2d"));
+        assert(block.hashMerkleRoot == uint256("0x"));
          // If genesis block hash does not match, then generate new genesis hash.
         if (true && block.GetHash() != hashGenesisBlock)
         {
