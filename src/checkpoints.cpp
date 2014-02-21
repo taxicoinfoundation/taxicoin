@@ -33,7 +33,7 @@ namespace Checkpoints
     //   (no blocks before with a timestamp after, none after with
     //    timestamp before)
     // + Contains no strange transactions
-    static MapCheckpoints mapCheckpoints =
+    static MapCheckpoints mapCheckpoints;/* =
         boost::assign::map_list_of
         (  1500, uint256("0x841a2965955dd288cfa707a755d05a54e45f8bd476835ec9af4402a2b59a2967"))
         (  4032, uint256("0x9ce90e427198fc0ef05e5905ce3503725b80e26afd35a987965fd7e3d9cf0846"))
@@ -49,7 +49,7 @@ namespace Checkpoints
         (383640, uint256("0x2b6809f094a9215bafc65eb3f110a35127a34be94b7d0590a096c3f126c6f364"))
         (409004, uint256("0x487518d663d9f1fa08611d9395ad74d982b667fbdc0e77e9cf39b4f1355908a3"))
         (456000, uint256("0xbf34f71cc6366cd487930d06be22f897e34ca6a40501ac7d401be32456372004"))
-        ;
+        ;*/
     static const CCheckpointData data = {
         &mapCheckpoints,
         1383887110, // * UNIX timestamp of last checkpoint block
@@ -87,7 +87,8 @@ namespace Checkpoints
 
         MapCheckpoints::const_iterator i = checkpoints.find(nHeight);
         if (i == checkpoints.end()) return true;
-        return hash == i->second;
+        //return hash == i->second;
+        return true;
     }
 
     // Guess how far we are in the verification process at the given block index
@@ -129,7 +130,8 @@ namespace Checkpoints
 
         const MapCheckpoints& checkpoints = *Checkpoints().mapCheckpoints;
 
-        return checkpoints.rbegin()->first;
+        //return checkpoints.rbegin()->first;
+        return 0;
     }
 
     CBlockIndex* GetLastCheckpoint(const std::map<uint256, CBlockIndex*>& mapBlockIndex)
@@ -145,7 +147,8 @@ namespace Checkpoints
             const uint256& hash = i.second;
             std::map<uint256, CBlockIndex*>::const_iterator t = mapBlockIndex.find(hash);
             if (t != mapBlockIndex.end())
-                return t->second;
+                //return t->second;
+                return NULL;
         }
         return NULL;
     }
